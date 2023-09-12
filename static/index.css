@@ -16,7 +16,11 @@ body {
   
   }
 
-
+form{
+  background-image: url("https://media.tenor.com/OgGGDk5YW6EAAAAd/star-wars.gif");
+  background-size: cover;
+  
+}
 
 .body0 {
   max-width:min-content;
@@ -48,15 +52,11 @@ post{
 }
 
 
-.save{
-  width:60%;
-  display:flex;
-  justify-content:flex-end;
-}
-.fa:hover{
-  background-color: rgba(8, 243, 255, 1);
-  border-radius: 30%;
-  padding: 0px 3% ;
+
+li:hover{
+  transform: translateY(-20px);
+  box-shadow: 0 40px 70px rgba(4, 134, 247, 0.5);
+  transition: 0.9s;
 }
 /* en esta linea comienza la animacion del post*/
 @keyframes show {

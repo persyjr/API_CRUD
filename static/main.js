@@ -67,18 +67,18 @@ function renderUser(users) {
     
     users.forEach(user => {
         const userItem = document.createElement('li')
-        userItem.classList='list-group-item list-group-item-dark my-2'
+        userItem.classList='list-group-item my-2'
         userItem.innerHTML = `
             <header class="d-flex justify-content-around align-items-center">
-                <h5 style="width:50%;">${user.username}</h5>
+                <h5 style="width:60%;">${user.username}</h5>
                 
                 <div  style="width:30%;">
                     <p>${user.especie}</p>
                     <p>${user.planeta}</p>
                 </div>
-                <div style="width:15%;">
-                    <button class="btn btnDelete btn-danger btn-sm" style="width:50%;"><i class="fa fa-close"></i></button>
-                    <button class="btn btnEdit btn-primary btn-sm" style="width:50%;"><i class="fa fa-edit"></i></button>
+                <div style="width:20%;">
+                    <button class="btn btnDelete btn-danger btn-sm" style="width:50%;"><i class="fa fa-close" style="width:36px;"></i></button>
+                    <button class="btn btnEdit btn-primary btn-sm" style="width:50%;"><i class="fa fa-edit" style="width:36px;"></i></button>
                 </div>
             <header>
             
